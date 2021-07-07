@@ -1,0 +1,116 @@
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h5{
+    display: flex;
+    flex-direction: row;
+}
+
+ .text-teal , .btn-teal{
+    color: #114444;
+}
+h5:before ,
+h5 :after {
+    content: "";
+    flex: 1 1;
+    border-bottom : 2px solid #000;
+    margin: auto;
+}
+h5:after ,
+h5 :before {
+    content: "";
+    flex: 1 1;
+    border-bottom : 2px solid #000;
+    margin: auto;
+}
+#Mern-stack{
+    text-shadow:  0 0 5px black;
+}
+
+#about-img{
+    border: 10px solid gray;
+    transform: rotate(-15deg);
+}
+
+
+footer{
+    position: relative;
+    padding: 40px;
+}
+#footer-logo{
+   box-shadow: 0 0 5px white;
+    border: 1px solid black;
+}
+
+
+
+
+
+/*hover effect */
+
+
+
+.item {
+    margin-bottom: 30px
+}
+
+.item .box {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    position: relative;
+    overflow: hidden
+}
+
+.item .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.8);
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 80px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15)
+}
+
+.item:hover .cover {
+    opacity: 1
+}
+
+.item .name {
+    font-weight: bold;
+    margin-bottom: 8px
+}
+
+.item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #bbd8fb;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-bottom: 20px
+}
+
+.social {
+    font-size: 18px
+}
+
+.social a {
+    color: inherit;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 0.7
+}
+
+.social a:hover {
+    opacity: 1
+}
+
+
